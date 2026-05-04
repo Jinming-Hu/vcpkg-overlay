@@ -3,7 +3,7 @@
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO Jinming-Hu/azure-sdk-for-cpp
+    REPO Azure/azure-sdk-for-cpp
     REF cd52506ee301c43c5514caed2adb768f6a4b64ea
     SHA512 713c1a8378e3f329353ebb1668ddd8fae0ffc1dfecf95f0bcc343e2add864f29d5ec4ec36f68118bafb9063ec91891d670ea287443aae2a3fb1a5d7a6f84345f
     HEAD_REF main
@@ -12,12 +12,12 @@ vcpkg_from_github(
 file(GLOB_RECURSE unused "${SOURCE_PATH}/cgmanifest.json")
 file(REMOVE_RECURSE ${unused})
 
-if(EXISTS "${SOURCE_PATH}/sdk/storage/azure-storage-common")
+if(EXISTS "${SOURCE_PATH}/sdk/storage/azure-storage-files-datalake")
   file(REMOVE_RECURSE "${SOURCE_PATH}/sdk/storage/_")
   file(REMOVE_RECURSE "${SOURCE_PATH}/sdk/_")
   file(REMOVE_RECURSE "${SOURCE_PATH}/_")
 
-  file(RENAME "${SOURCE_PATH}/sdk/storage/azure-storage-common" "${SOURCE_PATH}/sdk/storage/_")
+  file(RENAME "${SOURCE_PATH}/sdk/storage/azure-storage-files-datalake" "${SOURCE_PATH}/sdk/storage/_")
   file(RENAME "${SOURCE_PATH}/sdk/storage" "${SOURCE_PATH}/sdk/_")
   file(RENAME "${SOURCE_PATH}/sdk" "${SOURCE_PATH}/_")
 endif()
