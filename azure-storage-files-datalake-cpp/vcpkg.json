@@ -1,6 +1,6 @@
 {
   "name": "azure-storage-files-datalake-cpp",
-  "version-semver": "12.18.0-alpha2",
+  "version-semver": "12.18.0-alpha3",
   "description": [
     "Microsoft Azure Storage Files Data Lake SDK for C++",
     "Private STG105 build with persisted Blob session support."
@@ -11,7 +11,7 @@
     {
       "name": "azure-storage-blobs-cpp",
       "default-features": false,
-      "version>=": "12.20.0-alpha2"
+      "version>=": "12.20.0-alpha3"
     },
     {
       "name": "vcpkg-cmake",
