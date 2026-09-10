@@ -1,6 +1,6 @@
 {
   "name": "azure-storage-common-cpp",
-  "version-semver": "12.16.0-alpha1",
+  "version-semver": "12.16.0-alpha2",
   "description": [
     "Microsoft Azure Common Storage SDK for C++",
     "Private STG105 build with data-locality and session-authentication support."

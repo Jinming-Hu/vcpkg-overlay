@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO Jinming-Hu/azure-sdk-for-cpp
-    REF b5bf10bc5c9ffc972827201dbc4f542f01fcf945
-    SHA512 ad30b433147a16e2d770e490ef5cec248b6149a9117a6aebc9f5ecfdea1abd1b8a8eb42da0a76f48f9f7cbe26ec3a8a3e3d3e862b098b004e695c9a5f02932e0
+    REF 8fa43f90c4f2659c0d6ef2db2bdee4695f5fa745
+    SHA512 7fefea6ebb845d60fda36b98758eff72bcab1f92bfa5551265a37f6d37110e53a1318ce49390630b9065d9f6b6681dc2d83b9947c739332f8c065be06ffd0f65
     HEAD_REF private_drop_stg105_ref
 )
 
